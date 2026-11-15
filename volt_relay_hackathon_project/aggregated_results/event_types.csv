@@ -1,0 +1,6 @@
+event_type,count,share_of_rows
+swap_completed,3645809,0.9403654308097497
+failed_no_charged_battery,134389,0.034663025375463015
+abandoned_queue,68533,0.017676752695954333
+cancelled_by_rider,16712,0.004310534940171725
+failed_system_error,11570,0.0029842561786612527

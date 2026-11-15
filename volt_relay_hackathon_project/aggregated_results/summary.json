@@ -1,0 +1,110 @@
+{
+  "business": "VoltRelay Energy synthetic EV battery-swapping network",
+  "date_min": "2024-01-01",
+  "date_max": "2025-06-30",
+  "cities": [
+    "Bengaluru",
+    "Delhi NCR",
+    "Hyderabad",
+    "Jaipur",
+    "Mumbai",
+    "Pune"
+  ],
+  "station_count": 152,
+  "rider_count": 20000,
+  "event_rows": 3877013,
+  "event_types": {
+    "swap_completed": 3645809,
+    "failed_no_charged_battery": 134389,
+    "cancelled_by_rider": 16712,
+    "abandoned_queue": 68533,
+    "failed_system_error": 11570
+  },
+  "technical_failure_rate": 0.03764728155412427,
+  "abandonment_rate": 0.017676752695954333,
+  "cancellation_rate": 0.004310534940171725,
+  "completion_rate": 0.9403654308097497,
+  "revenue_inr": 233126055.55130866,
+  "grid_energy_cost_inr": 71087126.10938407,
+  "rent_maintenance_inr": 48709752.0,
+  "contribution_proxy_inr": 113329177.44192457,
+  "contribution_proxy_per_completed_swap_inr": 31.084781852786193,
+  "energy_kwh": 7630396.849000328,
+  "discount_inr": 21228532.449802853,
+  "mean_revenue_per_completed_swap_inr": 63.943573443180554,
+  "mean_grid_cost_per_completed_swap_inr": 19.498313298744964,
+  "retention_eligible_signups": 15169,
+  "activated_within_30d": 15122,
+  "activation_rate_30d": 0.9969015755817786,
+  "repeated_within_30d": 15056,
+  "repeat_rate_among_activated_30d": 0.9956354979500066,
+  "data_quality": {
+    "rows": 3877013,
+    "unique_event_ids": 3877013,
+    "duplicate_event_ids": 0,
+    "missing_key_fields": 0,
+    "completed_missing_energy": 0,
+    "completed_missing_revenue": 0,
+    "negative_financial_or_energy": 0
+  },
+  "weather_association": [
+    [
+      "flood_no",
+      3873940,
+      3642873,
+      145874,
+      0.037655203746056985
+    ],
+    [
+      "flood_yes",
+      3073,
+      2936,
+      85,
+      0.02766026684022128
+    ],
+    [
+      "heat_no",
+      3686767,
+      3483969,
+      127144,
+      0.034486584045045426
+    ],
+    [
+      "heat_yes",
+      190246,
+      161840,
+      18815,
+      0.09889826855755181
+    ],
+    [
+      "holiday_no",
+      3863068,
+      3632451,
+      145608,
+      0.03769232123276111
+    ],
+    [
+      "holiday_yes",
+      13945,
+      13358,
+      351,
+      0.025170311939763355
+    ],
+    [
+      "promo_no",
+      3734140,
+      3509166,
+      142235,
+      0.0380904304605612
+    ],
+    [
+      "promo_yes",
+      142873,
+      136643,
+      3724,
+      0.026065106773148182
+    ]
+  ],
+  "unit_economics_definition": "revenue less station-level grid energy cost; fixed rent/maintenance are summarized separately and may be allocated per completed swap. Excludes battery depreciation, labor, financing, taxes, central overhead.",
+  "data_note": "Synthetic seeded simulation; observed associations are not causal estimates."
+}

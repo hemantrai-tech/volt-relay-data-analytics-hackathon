@@ -1,0 +1,18 @@
+I’m excited to share my project for the Data Analytics Hackathon conducted by Gradient Learning.
+
+**Where Does the Swap Network Break?**
+
+I analysed a synthetic battery-swapping dataset with 3.88 million events across six Indian cities. I separated failed swaps, queue abandonment and rider cancellations, then connected reliability patterns with station telemetry, battery health, weather context, support tickets and a carefully bounded unit-economics proxy.
+
+A few findings:
+• 94.04% of attempts completed; 3.76% were technical failures.
+• 92.1% of technical failures were labelled “no charged battery.”
+• Jaipur and Delhi NCR had the highest observed technical-failure rates.
+• Heat-alert periods showed a higher failure rate, but this association does not prove causation.
+• The available costs do not establish margin erosion, and the 30-day repeat proxy is too saturated to establish retention health.
+
+I recommend targeted station-hour availability checks, heat-day readiness, battery-health audits, better cohort retention measurement, and complete unit economics including depreciation and labour.
+
+My biggest learning: a strong signal is a place to investigate and test, not a causal conclusion by itself. Which would you prioritise first: battery availability, rider retention, or full station-level margin?
+
+#DataAnalytics #DataAnalyticsHackathon #DataScience #Analytics #BuildWithData #ProductSpace
